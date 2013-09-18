@@ -1,0 +1,32 @@
+@import "lib/normalize";
+@import "_helpers";
+
+$HelveticaNeue: 'HelveticaNeue', 'Helvetica Neue';
+$HelveticaNeueUltraLight: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight';
+$HelveticaNeueThin: 'HelveticaNeue-Thin', 'Helvetica Neue Thin';
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $HelveticaNeue;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.view-wrapper {
+  margin: auto;
+  width: 720px;
+}
+
+@import "album";

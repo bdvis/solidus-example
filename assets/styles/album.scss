@@ -1,0 +1,42 @@
+.view-album {
+  
+  header {
+    margin: 20px 0 0;
+    
+    position: relative;
+    overflow: hidden;
+    height: 360px;
+    
+    .album-cover {
+      position: relative;
+      top: -17%;
+    }
+    
+    .album-info {
+      position: absolute;
+      padding: 10px 30px 20px;
+      bottom: 0;
+      width: 100%;
+      
+      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .9) 95%);
+      
+      color: #fff;
+      
+      text-shadow: 1px 1px #000;
+      
+      h1 {
+        font-family: $HelveticaNeueUltraLight;
+        font-size: 38px;
+      }
+      
+      h2 {
+        font-size: 18px;
+        color: #ddd;
+        font-family: $HelveticaNeueThin;
+      }
+    }
+  }
+  
+  
+  
+}

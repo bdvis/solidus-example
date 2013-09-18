@@ -1,0 +1,22 @@
+{{!
+{
+	"title": "",
+	"name": "album",
+	"resources": {
+	  "album": "https://graph.facebook.com/121316894561419?fields=from,name,link,cover_photo,count",
+	  "photos": "http://graph.facebook.com/121316894561419/photos?fields=name,images&count=100"
+	},
+	"preprocessor": "album.js"
+}
+}}
+
+<header>
+  <div class="album-cover">
+    <img src="{{resources.album_data.cover}}">
+  </div>
+  <div class="album-info">
+    <h1>{{resources.album_data.name}}</h1>
+    <h2>By {{resources.album_data.author}}</h2>
+  </div>
+</header>
+
